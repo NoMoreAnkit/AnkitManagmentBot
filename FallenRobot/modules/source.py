@@ -17,7 +17,7 @@ async def repo(_, message: Message):
 
 ɪ ᴀᴍ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :** ⌯𝐀𝐍𝐊𝐈𝐓⌯
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :** 𝐀𝐍𝐊𝐈𝐓🜲➲
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
@@ -26,10 +26,10 @@ async def repo(_, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("𝙋𝙞𝙧𝙤𝙤 𝘿𝙚𝙚𝙗𝙡𝙤𝙥𝙚𝙧", user_id=OWNER_ID),
+                    InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=OWNER_ID),
                     InlineKeyboardButton(
-                        "𝙎𝙤𝙪𝙧𝙘𝙚 𝘾𝙤𝙙𝙚 ❤",
-                        url="https://te.legra.ph/file/f20356d6f6ee0a0efd7b8.mp4",
+                        "sᴏᴜʀᴄᴇ",
+                        url="https://te.legra.ph/file/d4ab53d0d0c1d3e6d42ae.mp4",
                     ),
                 ]
             ]

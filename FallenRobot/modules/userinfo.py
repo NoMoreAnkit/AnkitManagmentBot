@@ -324,10 +324,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ʜᴇᴀʟᴛʜ", url="https://t.me/MySelfUserAnkit"
+                                "ʜᴇᴀʟᴛʜ", url="https://t.me/AnonAssociation/7"
                             ),
                             InlineKeyboardButton(
-                                "ᴅɪꜱᴀꜱᴛᴇʀ", url="https://t.me/MySelfUserAnkit"
+                                "ᴅɪꜱᴀꜱᴛᴇʀ", url="https://t.me/AnonAssociation/8"
                             ),
                         ],
                     ]
@@ -470,7 +470,7 @@ def set_about_bio(update: Update, context: CallbackContext):
 
         if user_id == bot.id and sender_id not in DEV_USERS:
             message.reply_text(
-                "Umm... yeah, I only trust @NoMoreAnkit to set my bio."
+                "Umm... yeah, I only trust Anon Association to set my bio."
             )
             return
 
@@ -492,7 +492,7 @@ def set_about_bio(update: Update, context: CallbackContext):
                     )
                 )
     else:
-        message.reply_text("𝙈𝙤𝙩𝙝𝙚𝙧𝙁𝙪*𝙆𝙚𝙧 𝙉𝙞𝙜𝙜𝙖 Reply to someone to set their bio!")
+        message.reply_text("Reply to someone to set their bio!")
 
 
 def __user_info__(user_id):
